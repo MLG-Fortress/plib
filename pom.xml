@@ -3,7 +3,7 @@
   
   <groupId>de.jaschastarke</groupId>
   <artifactId>plib</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.5</version>
   <packaging>maven-plugin</packaging>
   
   <name>PossiMinecraftLib</name>
@@ -20,8 +20,9 @@
   </scm>
   <distributionManagement>
     <repository>
-      <id>de-jas-repo</id>
-      <url>scp://repo@ja-s.de/var/customers/webs/repo/mvn</url>
+      <id>bintray-robomwm-maven</id>
+      <name>robomwm-maven</name>
+      <url>https://api.bintray.com/maven/robomwm/maven/plib/;publish=1</url>
     </repository>
   </distributionManagement>
   <ciManagement>
